@@ -1,3 +1,4 @@
+import "setimmediate";
 import { RootSiblingParent } from "react-native-root-siblings";
 import Routes from "./src/routes";
 import React from "react";

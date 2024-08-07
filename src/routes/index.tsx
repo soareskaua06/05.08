@@ -10,7 +10,7 @@ const Routes = () => {
   useEffect(() => {
     getToken();
     getUserData();
-  });
+  }, []);
 
   return (
     <NavigationContainer>
